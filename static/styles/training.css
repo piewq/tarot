@@ -1,0 +1,23 @@
+/* 
+"Вес" селекторов
+по тегу 1
+класс 10
+id 100
+стиль в самом теге 1000
+*/
+.main.border-div {
+    background-color: rgb(38, 72, 72);
+    border-style: dotted;
+}
+
+.main {
+    background-color: aqua;
+}
+
+.border-div {
+    border-style: solid !important;
+}
+
+.main p {
+    font-size: 35px;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>piewq's tarot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="source/styles/bg-video.css"> -->
+    <link rel="stylesheet" href="source/styles/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="source/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="source/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="source/icon/favicon-16x16.png">
+    <link rel="manifest" href="source/icon/site.webmanifest">
+</head>
+
+<body>
+    <header>
+        <h2 class="logo"><a href="index.html"><img src="source/icon/android-icon-72x72.png" alt=""></a> piewq's tarot</h2>
+        <nav class="navigation">
+            <a class="glow-on-hover" href="#"><img width="50" height="50" src="https://img.icons8.com/clouds/100/visible--v2.png" alt="visible--v2"/>home</a>
+            <a class="glow-on-hover" href="major arcana.html">major arcana</a>
+            <a class="glow-on-hover" href="minor arcana.html">minor arcana</a>
+            <a class="glow-on-hover" href="tips.html">tips</a>
+            <a class="glow-on-hover" href="links.html">links</a>
+            <button class="btnLogin-popup glow-on-hover">login</button>
+        </nav>    
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/delete-sign.png" alt="delete-sign"/></span>
+
+        <div class="form-box login">
+            <h2>login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><img width="30" height="30" src="https://img.icons8.com/ios/50/mail.png" alt="mail"/></span>
+                    <input type="email" required>
+                    <label>email</label> 
+                </div>
+                <div class="input-box">
+                    <span class="icon"><img width="30" height="30" src="https://img.icons8.com/ios/50/password--v1.png" alt="password--v1"/></span>
+                    <input type="password" required>
+                    <label>password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> remember me</label>
+                    <a href="#">forgot password?</a>
+                </div>
+                <button type="submit" class="btn">login</button>
+                <div class="login-register">
+                    <p>don't have an account? <a href="#" class="register-link">register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><img width="30" height="30" src="https://img.icons8.com/dotty/80/wizard.png" alt="wizard"/></span>
+                    <input type="text" required>
+                    <label>username</label> 
+                </div>
+                <div class="input-box">
+                    <span class="icon"><img width="30" height="30" src="https://img.icons8.com/ios/50/mail.png" alt="mail"/></span>
+                    <input type="email" required>
+                    <label>email</label> 
+                </div>
+                <div class="input-box">
+                    <span class="icon"><img width="30" height="30" src="https://img.icons8.com/ios/50/password--v1.png" alt="password--v1"/></span>
+                    <input type="password" required>
+                    <label>password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> i agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">register</button>
+                <div class="login-register">
+                    <p>already have an account? <a href="#" class="login-link">login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <section class="info-section">
+        <div class="introduce-block">
+            <div class="welcome-msg">
+                <h2>hello! bonjour! hola!</h2>
+                <p class="introduce-msg">добро пожаловать на сайт, который я собственными руками стряпал долгие годы (ну может быть пару месяцев)<br>
+                    перед вами результат моей кропотливой работы над каждой деталью, каждой кнопочкой и уголком.<br>
+                    <br>
+                    мне было интересно совладать с технической стороной разработки сайта, продумывания дизайна, и всё для того, <br>
+                    чтобы я мог здесь собирать крупицы информации про карты таро, их значения, нюансы при чтении раскладов и тд.<br>
+                    <br>
+                    а вдруг, это тоже кому-то пригодится? хихи
+                </p>
+            </div>
+        </div>
+
+        <div class="about-block">
+            <div class="about-title">
+                <h3>почему сайт?</h3>
+            </div>
+            <p class="about-msg">
+                в начале практики таро мне советовали куда-то записывать значения карт и я решил попробовать более интересный вариант. <br>
+                <br>
+                1. практика разработки сайтов => прокачка знаний в HTML, CSS и может быть остальные приблуды. <br>
+                2. могу самостоятельно менять формат записей, их дизайн. в общем, кастомизировать хранилище информации. <br>
+                3. при чтении раскладов я пользуюсь 3-7 источниками, где есть нужная и ненужная информация. <br>
+                хочется отовсюду подчерпнуть важное и собрать в одном месте.
+            </p>
+        </div>
+
+        <div class="structure-block">
+            <div class="structure-title">
+                <h3>структура сайта</h3>
+                <div class="structure-msg">
+                    <p>
+                        на данный момент на сайте имеется 5 разделов: <br>
+                        <span class="mark"><img width="35" height="35" src="https://img.icons8.com/pulsar-color/48/wizard.png" alt="wizard"/>home</span> - вы находитесь здесь! <br>
+                        <span class="mark"><img width="35" height="35" src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/66/external-tarot-magic-and-fairy-tales-smashingstocks-glyph-smashing-stocks.png" alt="external-tarot-magic-and-fairy-tales-smashingstocks-glyph-smashing-stocks"/>major arcana </span>- информация о старших арканах <br>
+                        <span class="mark"><img width="35" height="35" src="https://img.icons8.com/external-smashingstocks-detailed-outline-smashing-stocks/66/external-Tarot-magic-and-fairy-tales-smashingstocks-detailed-outline-smashing-stocks.png" alt="external-Tarot-magic-and-fairy-tales-smashingstocks-detailed-outline-smashing-stocks"/>minor arcana </span>- информация о младших арканах <br>
+                        <span class="mark"><img width="35" height="35" src="https://img.icons8.com/matisse/100/crystal-ball.png" alt="crystal-ball"/>tips </span>- дополнительная информация о картах, раскладах и тд<br>
+                        <span class="mark"><img width="35" height="35" src="https://img.icons8.com/cotton/64/domain.png" alt="domain"/>links </span>- так сказать, список литературы. постараюсь указывать все источники, откуда я набрался информации<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="container-fluid mt-4">
+           <div>
+            <p>ща мы сайтики научимся делать жизнь попрёт</p>
+            <p>всё ещё дрочу сайты и таро уву</p>
+            <p>я хз я уже больше месяца с этим вожусь супер сложно.......</p>
+           </div>
+        </div> -->
+    </section>
+
+    <footer class="mt-4">
+
+    </footer>
+
+
+    <script src="/scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
